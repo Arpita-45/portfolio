@@ -302,7 +302,7 @@ html{
 header{
     margin-left: -5rem;
     margin-top:-4rem;
-    width:12rem;
+    width:7rem;
     height:70rem;
 }
 header .header{
@@ -310,8 +310,8 @@ header .header{
 }
 header .header img{
     margin: 0 ;
-    height:20rem;
-    width:20rem;
+    height:13rem;
+    width:13rem;
     margin-left:-2.4rem;
 }
 
@@ -338,13 +338,13 @@ header .navbar  li a{
     font-size: 2.3rem;
 }
 .home .smh{
-    left: 50%; bottom:5rem;
+    left: 50%; bottom:3rem;
 }
 .home .smh a{
-    padding:1rem 2rem;
-    margin:0.6rem;
+    padding:0.2rem 0.4rem;
+    margin:0.5rem;
 
-    font-size:1.7rem;
+    font-size:1.0rem;
     
 }
 
@@ -397,16 +397,16 @@ header .navbar  li a{
     text-decoration: underline;
 }
 .contact .row form{
-    padding:0rem 1rem;
+    padding:0rem 0.4rem;
 
 }
 
 .contact .row form .box{
-    padding:0 1rem;
+    padding:0 0.5rem;
     margin:1rem 0;
     height:4.5rem;
     width:100%;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     color:#fff;
     text-transform: none;
 }
@@ -415,7 +415,7 @@ header .navbar  li a{
 
 .contact .row form .message{
     padding:1rem;
-    height:15rem;
+    height:9rem;
     resize: none;
     width:100%;
 }
@@ -425,25 +425,25 @@ header .navbar  li a{
 }
 
 .contact .row .content{
-    padding:0 3rem;
+    padding:0 0.5rem;
 }
 .contact .row .content .icons{
-    padding:1rem 0;
+    padding:0.3rem 0;
 }
 
 .contact .row .content .icons h3{
-    padding:1rem 0;
+    padding:0.7rem 0;
     font-size: 1.7rem;
     color:#fff;
     display: flex;
 }
 
 .contact .row .content .icons h3 i{
-    padding-right: .5rem;
+    padding-right: 0.3rem;
 }
 
 .contact .row .content .icons p{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 
