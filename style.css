@@ -302,7 +302,7 @@ html{
 header{
     margin-left: -5rem;
     margin-top:-4rem;
-    width:7rem;
+    width:11rem;
     height:70rem;
 }
 header .header{
@@ -310,17 +310,17 @@ header .header{
 }
 header .header img{
     margin: 0 ;
-    height:8rem;
-    width:8rem;
+    height:11rem;
+    width:10rem;
     margin-left:-2.4rem;
 }
 
 header .header .name{
-    font-size:2.6rem;
+    font-size:2.2rem;
 }
 
 header .navbar  li a{
-    font-size:1.3rem;
+    font-size:1.1rem;
 }
 .container{
     height:70rem;
