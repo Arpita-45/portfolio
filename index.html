@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <header>
+        <div class="header">
+            <img src="me@2x.png" alt="image">
+            <h3 class="name">Arpita Tripathy</h3>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#HOME">HOME</a></li>
+                <li><a href="#ABOUT">ABOUT</a></li>
+                <li><a href="#EDUCATION">EDUCATION</a></li>
+                <li><a href="#CONTACT">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+        <div class="container">
+            <section class="home" id="HOME">
+                <h2 class="hello">Hello</h2>
+                <h2 class="name">I am <span>Arpita Tripathy</span></h2>
+                <h3 class="learner">I am a <span class="typing-text">Learner.....</span></h3>
+                <div class="smh">
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                    <a href="#" class="fab fa-github"></a>
+                </div>
+            </section>
+            <section class="about" id="ABOUT">
+                <h1 class="heading">About Me</h1><br><br>
+                <div class="content">
+                    <h3 class="name">My name is <span>Arpita Tripathy</span></h3>
+                    <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quos ipsam, temporibus veritatis sed dignissimos. Ratione consequuntur sapiente reiciendis dolorem.</p>
+                </div>
+                <br><br>
+                <div class="hobbies">
+                    <h2>Hobbies:</h2>
+                    <p class="hobby">Painting, Graphic designing</p>
+                </div>
+            </section>
+            <section class="education" id="EDUCATION">
+                <h1 class="heading">My education</h1>
+                    <div class="box-container">
+                        <div class="box">
+                            <div class="year">2021-25</div>
+                            <h3>Graduation</h3>
+                            <p>Btech. in Electronics and Telecommunication Engg.</p>
+                            <p>Veer Surendra Sai University of Technology, Burla</p>
+                        </div>
+            
+                        <div class="box">
+                            <div class="year">2019-21</div>
+                            <h3>Intermediate</h3>
+                            <p>Demonstration Multipurpose School, RIE,Bhubaneswar</p>
+                        </div>
+            
+                        <div class="box">
+                            <div class="year">2019-2017</div>
+                            <h3>Matriculation</h3>
+                            <p>Demonstration Multipurpose School, RIE,Bhubaneswar</p>
+                        </div>
+                    </div>
+            </section>
+            <section class="contact" id="CONTACT">
+                <h1 class="heading">Contact Me</h1>
+                <div class="row">
+                    <form action="">
+                        <input type="text" class="box" placeholder="first name">
+                            <input type="text" class="box" placeholder="last name">
+                            <input type="email" class="box" placeholder="your email">
+                            <input type="text" class="box" placeholder="your project">
+                            <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+                            <input type="submit" value="message" class="btn">
+                        </form>
+                        <div class="content">
+                            <div class="icons">
+                                <h3><i class="fas fa-map-marker-alt"></i> address </h3>
+                                <p>Lorem ipsum dolor sit</p>
+                            </div>
+                            <div class="icons">
+                                <h3><i class="fas fa-envelope"></i> email </h3>
+                                <p>123@gmail.com</p>
+                            </div>
+                            <div class="icons">
+                                <h3><i class="fas fa-phone"></i> phone </h3>
+                                <p>+###-###-####</p>
+                            </div>
+                        </div>
+                </div>
+            </section>
+        </div>
+        
+    <div class="theme-toggler">
+        <!-- <span style="background: linear-gradient(deeppink, purple);"></span> -->
+        <!-- <span style="background: linear-gradient(lightgreen, crimson);"></span> -->
+        <span style="background:linear-gradient(blueviolet, deeppink)"></span>
+        <span style="background:linear-gradient(coral, blueviolet)"></span>
+        <span style="background:linear-gradient(rgb(178, 250, 250), rgb(3, 61, 61))"></span>
+        <!-- <span style="background:linear-gradient(#999, #111)"></span> -->
+    </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+<script>
+    var type = new Typed('.typing-text',{
+        strings : [ 'Learner','learner'],
+        typeSpeed: 120,
+        loop:true
+    });
+    let themeColor = document.querySelectorAll('.theme-toggler span');
+    themeColor.forEach(color => color.addEventListener('click', () =>{
+        let background = color.style.background;
+        document.querySelector('body').style.background = background;
+    }));
+</script>
+
+</body>
+</html>
