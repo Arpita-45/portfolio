@@ -310,8 +310,8 @@ header .header{
 }
 header .header img{
     margin: 0 ;
-    height:13rem;
-    width:13rem;
+    height:8rem;
+    width:8rem;
     margin-left:-2.4rem;
 }
 
@@ -320,7 +320,7 @@ header .header .name{
 }
 
 header .navbar  li a{
-    font-size:1.8rem;
+    font-size:1.3rem;
 }
 .container{
     height:70rem;
