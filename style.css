@@ -35,7 +35,7 @@ section{
     color:white;
 }
 header{
-    width:31.5rem;
+    width:20.5rem;
     background:rgba(255,255,255,.2);
     box-shadow: 0 1rem 2rem rgba(0,0,0,.3);
     text-align:center;
@@ -50,8 +50,8 @@ header .header{
 }
 header .header img{
     margin: 0 ;
-    height:37rem;
-    width:37rem;
+    height:23rem;
+    width:23rem;
     object-fit:cover;
     margin-left:-2rem; 
     margin-top: -4rem; 
